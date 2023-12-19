@@ -1,0 +1,99 @@
+body {
+    width:100%;
+    height: 2000px;
+    margin: auto;
+    background-color: rgb(221, 195, 188);
+}
+header {
+    width: 100%;
+    height: 300px;
+}
+#nav {
+    display: flex;
+    height:168px;
+    width:600px;
+}
+.ogolny {
+    position: absolute; 
+    display: flex; 
+}
+.mountain {
+    height:300px;
+    width:100%;
+    position: absolute;
+}
+.polska {
+    position: absolute; 
+    height: 151.5px;
+    width: 128.25px;
+}
+.tour {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-decoration: none;
+    margin-left: 135px;
+    color: white;
+}
+.poland {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-decoration: none;
+    color: red;
+    margin-left: -491px;
+    margin-top: 70px;
+
+}
+main {
+    width: 100%;
+    height: 1500px;
+}
+.send {
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 210px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: absolute;
+}
+.W {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.Warsaw {
+    height:400px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.descr-w {
+    width:300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;    
+}
+.P {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Poznan {
+    height:400px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.K {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Krakow {
+    height:400px;
+    margin-top: 50px;
+    margin-left: 25px;
+}

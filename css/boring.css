@@ -1,0 +1,224 @@
+body {
+    width:100%;
+    height: 2500px;
+    margin: auto;
+    background-color: rgb(221, 195, 188);
+}
+header {
+    width: 100%;
+    height: 300px;
+}
+#nav {
+    display: flex;
+    height:168px;
+    width:600px;
+}
+.ogolny {
+    position: absolute; 
+    display: flex; 
+}
+.mountain {
+    height:300px;
+    width:100%;
+    position: absolute;
+}
+.polska {
+    position: absolute; 
+    height: 151.5px;
+    width: 128.25px;
+}
+.tour {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-decoration: none;
+    margin-left: 135px;
+    color: white;
+}
+.poland {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-decoration: none;
+    color: red;
+    margin-left: -491px;
+    margin-top: 70px;
+
+}
+main {
+    width: 100%;
+    height: 1900px;
+}
+.glaw {
+    display: flex;
+    margin-top: 20px;
+    
+}
+.st {
+    background-color: aliceblue;
+    height: 1800px;
+    width: 710px;
+    margin-left: 20px;
+    border: 15px solid;
+    animation-name: circle;
+    animation-duration: 3s;
+}
+
+.class {
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+    width: 210px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: absolute;
+
+}
+.send {
+    text-decoration: none;
+    color:white;
+    margin-left: 36px;
+    margin-top: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.class:hover {
+    background-color: rgb(117, 60, 192);
+    transition: 0.3s;
+}
+.W {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.Warsaw {
+    height:400px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.P {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.Poznan {
+    height:320px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.fs {
+    margin-top: 80px;
+}
+.sd {
+    margin-top: 80px;
+}
+.K {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Krakow {
+    height:400px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.nd {
+    height: 1670px;
+    width: 510px;
+    margin-left: 21px;
+    margin-bottom: 14px;
+}
+.ndall {
+    background-color: aliceblue;
+    height: 400px;
+    width: 600px;
+    padding: 40px;
+    margin-top: 20px;
+    list-style-type: none;
+    border: 15px solid;
+    animation-name: circle2;
+    animation-duration: 3s;
+
+}
+.descr-w {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.descr-p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    height: 100px;
+}
+.descr-k {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+@keyframes circle {
+    from {
+      background-color: #F498AD;
+      width: 236.67px;
+    }
+    50% {
+      background-color: #7F6EDB;
+      width: 473.33px;
+    }
+    to {
+      background-color: aliceblue;
+      width: 710px;
+    }
+  }
+  @keyframes circle {
+    from {
+      background-color: #F498AD;
+      width: 236.67px;
+    }
+    50% {
+      background-color: #7F6EDB;
+      width: 473.33px;
+    }
+    to {
+      background-color: aliceblue;
+      width: 710px;
+    }
+  }
+  @keyframes circle2 {
+    from {
+      background-color: #F498AD;
+      width: 200px;
+    }
+    50% {
+      background-color: #7F6EDB;
+      width: 400px;
+    }
+    to {
+      background-color: aliceblue;
+      width: 600px;
+    }
+  }
+footer {
+    width: 100%;
+    height: 300px;
+    border: 7px solid;
+    border-color: rgb(92, 52, 52);
+    background-color: #ffffff;
+}
+.block-footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  color: black;
+}
+.accounts {
+    margin: 20px;
+}
+
+.share {
+    padding-left: 10px;
+}
